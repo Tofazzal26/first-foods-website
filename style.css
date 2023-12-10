@@ -1,0 +1,318 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #282A3A;
+}
+/* Navbar Start */
+.logo{
+	margin-left: 11vh;
+}
+.logo h2{
+	color: white;
+	font-family: arial;
+	font-weight: 700;
+	font-size: 30px;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.nav{
+	margin-right: 16vh;
+}
+.nav ul{
+	display: flex;
+}
+.nav ul li{
+	list-style: none;
+	margin: 22px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-weight: 700;
+	transition: ease-in-out 0.2s;
+}
+.nav ul li a:hover{
+	color: #FF7000;
+	transition: ease-in-out 0.2s;
+}
+/* Navbar End */
+
+
+/* Home Section Start */
+
+.text_content{
+  color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-right: 30vh;
+}
+
+.text_content h2{
+	color: #FF7000;
+	font-size: 65px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 40px;
+}
+.text_content p{
+	font-size: 28px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 10px;
+}
+
+.containner{
+	display: flex;
+}
+.text_content .btn{
+	color: white;
+	background-color: #FF7000;
+	padding: 12px 20px;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	transition: 0.2s ease-in-out;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.text_content .btn:hover{
+	transform: scale(1.06);
+}
+.im1{
+	margin-right: 44vh;
+}
+
+.im1 img{
+	width: 400px;
+}
+/* Home Section End */
+
+/* About Section Start */
+
+.about_us{
+	display: flex;
+	margin-top: 44vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.im2 img{
+	width: 450px;
+}
+
+.about_text{
+	margin-left: 16vh;
+}
+.about_text .abo{
+	color: #FF7000;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 6px;
+}
+
+.about_text h2{
+	color: white;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 18px;
+}
+.about_text p{
+	color: white;
+	width: 550px;
+	font-family: arial;
+	line-height: 26px;
+}
+.about_text .btn2{
+	color: white;
+	background-color: #FF7000;
+	padding: 12px 19px;
+	border-radius: 6px;
+	margin-top: 6px;
+	border: none;
+	outline: none;
+	transition: 0.4s ease-in-out;
+}
+.about_text .btn2:hover{
+	transform: scale(1.06);
+	transition: 0.2s ease-in-out;
+}
+
+/* About Section End */
+
+/* Food Section Start */
+
+.food_menu{
+	margin-top: 15vh;
+}
+.menu{
+	text-align: center;
+}
+.menu p{
+	color: #FF7000;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 6px;
+}
+.menu h2{
+	color: white;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 20px;
+}
+.flex{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+.im3{
+	width: 220px;
+	height: 250px;
+	padding: 26px 50px;
+	background-color: white;
+	border-radius: 6px;
+	margin-top: 5vh;
+}
+.im3 img{
+	width: 140px;
+	margin-left: 40px;
+}
+.im3 h2{
+	font-family: arial;
+	font-weight: 700;
+	text-align: center;
+}
+.im3 p{
+	color: #FF7000;
+	text-align: center;
+	
+}
+.im3 .tasty{
+	color: #262626;
+	font-size: 18px;
+	text-align: center;
+	line-height: 2px;
+}
+
+/* Food Section Start */
+
+/* Service Part Start */
+
+.service_text{
+	text-align: center;
+	margin-top: 16vh;
+}
+.service_text p{
+	color: #FF7000;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 6px;
+}
+.service_text h2{
+	color: white;
+	font-size: 40px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+
+
+.service_content{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	text-align: center;
+}
+.service_part img{
+	width: 100px;
+}
+.service_part h2{
+	color: #FF7000;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: 700;
+	line-height: 6px;
+}
+.service_part p{
+	width: 340px;
+	color: white;
+	font-family: arial;
+	line-height: 26px;
+}
+/* Service Part End */
+
+/* Talk Part Start */
+
+.talk_section{
+	text-align: center;
+	background: #feeee7;
+	padding: 70px 0;
+	margin: 100px auto;
+	width: 66%;
+	border-radius: 10px;
+}
+.talk_text h2{
+	font-size: 28px;
+	font-family: arial;
+	font-weight: 700;
+}
+.talk_text .btn4{
+	color: white;
+	background-color: #FF7000;
+	padding: 12px 20px;
+	border-radius: 6px;
+	border: none;
+	outline: none;
+	transition: ease-in-out 0.2s;
+}
+.talk_text .btn4:hover{
+	transform: scale(1.1);
+	transition: ease-in-out 0.2s;
+}
+
+/* Talk Part End */
+
+
+/* Footer Part Start */
+
+.main_navbar{
+	display: flex;
+	justify-content: center;
+	gap: 20vh;
+}
+.main_nav h2{
+	color: #FF7000;
+	font-weight: 700;
+	font-family: arial;
+	position: relative;
+	margin-left: 40px;
+}
+
+.main_nav ul li{
+	list-style: none;
+	margin: 20px 0;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: 400;
+	transition: ease-in-out 0.2s;
+}
+.main_nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.main_nav ul li a:hover{
+	color: #FF7000;
+	transition: ease-in-out 0.2s;
+}
+
+/* Footer Part End */
